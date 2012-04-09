@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='ASCII'?>
 <flow_graph>
-  <timestamp>Mon Apr  9 18:43:11 2012</timestamp>
+  <timestamp>Mon Apr  9 18:52:05 2012</timestamp>
   <block>
     <key>options</key>
     <param>
@@ -158,85 +158,6 @@
     </param>
   </block>
   <block>
-    <key>wxgui_waterfallsink2</key>
-    <param>
-      <key>id</key>
-      <value>wxgui_waterfallsink2_2</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>complex</value>
-    </param>
-    <param>
-      <key>title</key>
-      <value>Waterfall Plot</value>
-    </param>
-    <param>
-      <key>samp_rate</key>
-      <value>sr</value>
-    </param>
-    <param>
-      <key>baseband_freq</key>
-      <value>cf</value>
-    </param>
-    <param>
-      <key>dynamic_range</key>
-      <value>100</value>
-    </param>
-    <param>
-      <key>ref_level</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>ref_scale</key>
-      <value>2.0</value>
-    </param>
-    <param>
-      <key>fft_size</key>
-      <value>512</value>
-    </param>
-    <param>
-      <key>fft_rate</key>
-      <value>30</value>
-    </param>
-    <param>
-      <key>average</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>avg_alpha</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>win</key>
-      <value>None</value>
-    </param>
-    <param>
-      <key>win_size</key>
-      <value></value>
-    </param>
-    <param>
-      <key>grid_pos</key>
-      <value></value>
-    </param>
-    <param>
-      <key>notebook</key>
-      <value>notebook_0,0</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(339, 294)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
     <key>gr_null_sink</key>
     <param>
       <key>id</key>
@@ -257,61 +178,6 @@
     <param>
       <key>_coordinate</key>
       <value>(1100, 296)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>variable_slider</key>
-    <param>
-      <key>id</key>
-      <value>thres</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>label</key>
-      <value></value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>-16</value>
-    </param>
-    <param>
-      <key>min</key>
-      <value>-100</value>
-    </param>
-    <param>
-      <key>max</key>
-      <value>100</value>
-    </param>
-    <param>
-      <key>num_steps</key>
-      <value>100</value>
-    </param>
-    <param>
-      <key>style</key>
-      <value>wx.SL_HORIZONTAL</value>
-    </param>
-    <param>
-      <key>converver</key>
-      <value>float_converter</value>
-    </param>
-    <param>
-      <key>grid_pos</key>
-      <value></value>
-    </param>
-    <param>
-      <key>notebook</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(11, 646)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -491,85 +357,6 @@
     <param>
       <key>_coordinate</key>
       <value>(0, 583)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>wxgui_waterfallsink2</key>
-    <param>
-      <key>id</key>
-      <value>wxgui_waterfallsink2_0_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>complex</value>
-    </param>
-    <param>
-      <key>title</key>
-      <value>Waterfall Plot</value>
-    </param>
-    <param>
-      <key>samp_rate</key>
-      <value>int_rate</value>
-    </param>
-    <param>
-      <key>baseband_freq</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>dynamic_range</key>
-      <value>100</value>
-    </param>
-    <param>
-      <key>ref_level</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>ref_scale</key>
-      <value>2.0</value>
-    </param>
-    <param>
-      <key>fft_size</key>
-      <value>512</value>
-    </param>
-    <param>
-      <key>fft_rate</key>
-      <value>15</value>
-    </param>
-    <param>
-      <key>average</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>avg_alpha</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>win</key>
-      <value>None</value>
-    </param>
-    <param>
-      <key>win_size</key>
-      <value></value>
-    </param>
-    <param>
-      <key>grid_pos</key>
-      <value></value>
-    </param>
-    <param>
-      <key>notebook</key>
-      <value>notebook_0,3</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(445, 212)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1629,61 +1416,6 @@
     <key>variable_slider</key>
     <param>
       <key>id</key>
-      <value>rate_3</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>label</key>
-      <value></value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>1200</value>
-    </param>
-    <param>
-      <key>min</key>
-      <value>512</value>
-    </param>
-    <param>
-      <key>max</key>
-      <value>2400</value>
-    </param>
-    <param>
-      <key>num_steps</key>
-      <value>2</value>
-    </param>
-    <param>
-      <key>style</key>
-      <value>wx.SL_HORIZONTAL</value>
-    </param>
-    <param>
-      <key>converver</key>
-      <value>float_converter</value>
-    </param>
-    <param>
-      <key>grid_pos</key>
-      <value>3,4,1,1</value>
-    </param>
-    <param>
-      <key>notebook</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(49, 60)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>variable_slider</key>
-    <param>
-      <key>id</key>
       <value>rate_2</value>
     </param>
     <param>
@@ -1860,6 +1592,107 @@
     </param>
   </block>
   <block>
+    <key>low_pass_filter</key>
+    <param>
+      <key>id</key>
+      <value>low_pass_filter_0_1_0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>fir_filter_fff</value>
+    </param>
+    <param>
+      <key>decim</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>interp</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>gain</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>samp_rate</key>
+      <value>sym_rates[3] * sps[3]</value>
+    </param>
+    <param>
+      <key>cutoff_freq</key>
+      <value>sym_rates[3] * 2</value>
+    </param>
+    <param>
+      <key>width</key>
+      <value>sym_rates[3] / 2</value>
+    </param>
+    <param>
+      <key>win</key>
+      <value>firdes.WIN_HAMMING</value>
+    </param>
+    <param>
+      <key>beta</key>
+      <value>6.76</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(478, 900)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>id</key>
+      <value>fm_deviation</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>4500</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(28, 149)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>id</key>
+      <value>sps</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>[(1+fm_deviation*2/sym_rates[0])*2,2*(1+fm_deviation*2/sym_rates[1]),2*(1+fm_deviation*2/sym_rates[2]),2*(1+fm_deviation*2/sym_rates[3])]</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(124, 737)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
     <key>variable_chooser</key>
     <param>
       <key>id</key>
@@ -1914,7 +1747,7 @@
     <key>wxgui_waterfallsink2</key>
     <param>
       <key>id</key>
-      <value>wxgui_waterfallsink2_0</value>
+      <value>wxgui_waterfallsink2_2</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -1926,15 +1759,94 @@
     </param>
     <param>
       <key>title</key>
-      <value>Waterfall Plot</value>
+      <value>RF Waterfall</value>
     </param>
     <param>
       <key>samp_rate</key>
-      <value>int_rate/((int_rate)/(sps[baseband_fft]*sym_rates[baseband_fft]))</value>
+      <value>sr</value>
     </param>
     <param>
       <key>baseband_freq</key>
+      <value>cf</value>
+    </param>
+    <param>
+      <key>dynamic_range</key>
+      <value>100</value>
+    </param>
+    <param>
+      <key>ref_level</key>
       <value>0</value>
+    </param>
+    <param>
+      <key>ref_scale</key>
+      <value>2.0</value>
+    </param>
+    <param>
+      <key>fft_size</key>
+      <value>512</value>
+    </param>
+    <param>
+      <key>fft_rate</key>
+      <value>30</value>
+    </param>
+    <param>
+      <key>average</key>
+      <value>False</value>
+    </param>
+    <param>
+      <key>avg_alpha</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>win</key>
+      <value>None</value>
+    </param>
+    <param>
+      <key>win_size</key>
+      <value></value>
+    </param>
+    <param>
+      <key>grid_pos</key>
+      <value></value>
+    </param>
+    <param>
+      <key>notebook</key>
+      <value>notebook_0,0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(339, 294)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>wxgui_waterfallsink2</key>
+    <param>
+      <key>id</key>
+      <value>wxgui_waterfallsink2_0_0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>complex</value>
+    </param>
+    <param>
+      <key>title</key>
+      <value>Baseband Waterfall</value>
+    </param>
+    <param>
+      <key>samp_rate</key>
+      <value>int_rate</value>
+    </param>
+    <param>
+      <key>baseband_freq</key>
+      <value>cf+fine</value>
     </param>
     <param>
       <key>dynamic_range</key>
@@ -1982,62 +1894,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(959, 274)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>low_pass_filter</key>
-    <param>
-      <key>id</key>
-      <value>low_pass_filter_0_1_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>fir_filter_fff</value>
-    </param>
-    <param>
-      <key>decim</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>interp</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>gain</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>samp_rate</key>
-      <value>sym_rates[3] * sps[3]</value>
-    </param>
-    <param>
-      <key>cutoff_freq</key>
-      <value>sym_rates[3] * 2</value>
-    </param>
-    <param>
-      <key>width</key>
-      <value>sym_rates[3] / 2</value>
-    </param>
-    <param>
-      <key>win</key>
-      <value>firdes.WIN_HAMMING</value>
-    </param>
-    <param>
-      <key>beta</key>
-      <value>6.76</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(478, 900)</value>
+      <value>(419, 165)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2147,7 +2004,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(36, 36)</value>
+      <value>(0, 3)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2155,22 +2012,54 @@
     </param>
   </block>
   <block>
-    <key>variable</key>
+    <key>variable_slider</key>
     <param>
       <key>id</key>
-      <value>fm_deviation</value>
+      <value>rate_3</value>
     </param>
     <param>
       <key>_enabled</key>
       <value>True</value>
     </param>
     <param>
+      <key>label</key>
+      <value></value>
+    </param>
+    <param>
       <key>value</key>
-      <value>4500</value>
+      <value>1200</value>
+    </param>
+    <param>
+      <key>min</key>
+      <value>512</value>
+    </param>
+    <param>
+      <key>max</key>
+      <value>2400</value>
+    </param>
+    <param>
+      <key>num_steps</key>
+      <value>2</value>
+    </param>
+    <param>
+      <key>style</key>
+      <value>wx.SL_HORIZONTAL</value>
+    </param>
+    <param>
+      <key>converver</key>
+      <value>float_converter</value>
+    </param>
+    <param>
+      <key>grid_pos</key>
+      <value>3,4,1,1</value>
+    </param>
+    <param>
+      <key>notebook</key>
+      <value></value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(28, 149)</value>
+      <value>(49, 60)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2178,22 +2067,78 @@
     </param>
   </block>
   <block>
-    <key>variable</key>
+    <key>wxgui_waterfallsink2</key>
     <param>
       <key>id</key>
-      <value>sps</value>
+      <value>wxgui_waterfallsink2_0</value>
     </param>
     <param>
       <key>_enabled</key>
       <value>True</value>
     </param>
     <param>
-      <key>value</key>
-      <value>[(1+fm_deviation*2/sym_rates[0])*2,2*(1+fm_deviation*2/sym_rates[1]),2*(1+fm_deviation*2/sym_rates[2]),2*(1+fm_deviation*2/sym_rates[3])]</value>
+      <key>type</key>
+      <value>complex</value>
+    </param>
+    <param>
+      <key>title</key>
+      <value>Channel Waterfall</value>
+    </param>
+    <param>
+      <key>samp_rate</key>
+      <value>int_rate/((int_rate)/(sps[baseband_fft]*sym_rates[baseband_fft]))</value>
+    </param>
+    <param>
+      <key>baseband_freq</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>dynamic_range</key>
+      <value>100</value>
+    </param>
+    <param>
+      <key>ref_level</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>ref_scale</key>
+      <value>2.0</value>
+    </param>
+    <param>
+      <key>fft_size</key>
+      <value>512</value>
+    </param>
+    <param>
+      <key>fft_rate</key>
+      <value>15</value>
+    </param>
+    <param>
+      <key>average</key>
+      <value>False</value>
+    </param>
+    <param>
+      <key>avg_alpha</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>win</key>
+      <value>None</value>
+    </param>
+    <param>
+      <key>win_size</key>
+      <value></value>
+    </param>
+    <param>
+      <key>grid_pos</key>
+      <value></value>
+    </param>
+    <param>
+      <key>notebook</key>
+      <value>notebook_0,2</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(124, 737)</value>
+      <value>(959, 274)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2369,12 +2314,6 @@
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>osmosdr_source_c_0</source_block_id>
-    <sink_block_id>gr_freq_xlating_fir_filter_xxx_0</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
     <source_block_id>blks2_selector_0</source_block_id>
     <sink_block_id>wxgui_waterfallsink2_0</sink_block_id>
     <source_key>0</source_key>
@@ -2419,6 +2358,12 @@
   <connection>
     <source_block_id>digital_binary_slicer_fb_0</source_block_id>
     <sink_block_id>gr_null_sink_1_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>osmosdr_source_c_0</source_block_id>
+    <sink_block_id>gr_freq_xlating_fir_filter_xxx_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
