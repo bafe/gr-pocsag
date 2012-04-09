@@ -3,3 +3,14 @@ The script decode-streams automatically starts 4 istances of the pocsag decoder 
 In alternative, you can specify the four fifos in the grc file and decode them using your own decoder/osmo-pocsag
 I absolutely do not guarantee that this decoder will work. 
 The center frequencies correspond to the 4 swiss POCSAG channels, you need to change it to those of your country.
+
+Tab 1 shows the RF spectrum around cf.
+Tab 2 shows the baseband spectrum around cf+fine, set fine to some freq. higher than 100 khz to avoid the spikes around dc.
+Tab 3 shows the "audio" output for a single channel, the channel is set in "baseband_fft".
+The four channels to be monitored are set in the variable "channels", directly input the exact frequency you find in any list,
+python will compute the xlator parameters for your :).
+Filter offest may be used to widen the filter after the channel xlator up to 6kHz.
+rate_1 to rate_4 are used to set the data rates for the four channels.
+Have fun decoding POCSAG!
+
+
