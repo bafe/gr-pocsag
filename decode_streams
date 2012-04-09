@@ -1,0 +1,6 @@
+mkfifo out1.bits
+mkfifo out2.bits
+mkfifo out3.bits
+mkfifo out4.bits
+./pocsag out1.bits & ./pocsag out2.bits & ./pocsag out3.bits & ./pocsag out4.bits && fg
+rm out*.bits

@@ -1,0 +1,4 @@
+Simple multichannel POCSAG receiver, to be used with osmo-pocsag (https://github.com/smunaut/osmo-pocsag)
+The script decode-streams automatically starts 4 istances of the pocsag decoder (whose executable should be in the same folder as the script)
+I absolutely do not guarantee that this decoder will work. 
+The center frequencies correspond to the 4 swiss POCSAG channels, you need to change it to those of your country.
